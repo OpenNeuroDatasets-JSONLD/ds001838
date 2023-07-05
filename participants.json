@@ -56,12 +56,11 @@
         "M": {
           "TermURL": "snomed:248153007",
           "Label": ""
-        },
-        "NaN": {
-          "TermURL": "nb:MissingValue",
-          "Label": ""
         }
-      }
+      },
+      "MissingValues": [
+        "nan"
+      ]
     }
   },
   "NeurologicalQuestionnaire_Eligibility": {
@@ -95,19 +94,9 @@
         "TermURL": "nb:Assessment",
         "Label": ""
       },
-      "Levels": {
-        "L": {
-          "TermURL": NaN,
-          "Label": ""
-        },
-        "R": {
-          "TermURL": NaN,
-          "Label": ""
-        },
-        "NaN": {
-          "TermURL": "nb:MissingValue",
-          "Label": ""
-        }
+      "IsPartOf": {
+        "TermURL": "cogatlas:tsk_4a57abb949a41",
+        "Label": ""
       }
     }
   },
